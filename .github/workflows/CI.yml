@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "K2P,K2P_nano"
+            targets: "K2P K2P_nano"
           
     steps:
       - uses: actions/checkout@v2
